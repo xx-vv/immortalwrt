@@ -1,0 +1,9 @@
+--- a/drivers/usb/serial/option.c
++++ b/drivers/usb/serial/option.c
+@@ -636,3 +636,6 @@ static void option_instat_callback(struc
+#define MEIGSMART_PRODUCT_SLM320		0x4d41
+
++/* TDTECH */
++#define TDTECH_VENDOR_ID			0x3466
++
+ /* Device flags */
