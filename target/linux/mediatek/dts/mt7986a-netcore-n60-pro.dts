@@ -292,7 +292,7 @@
 
 			partition@580000 {
 				label = "ubi";
-				reg = <0x0580000 0x7a80000>;
+				reg = <0x580000 0x1FA80000>;   /* 512MiB - 0x580000 = 506.5MiB */
 				compatible = "linux,ubi";
 
 				volumes {
