@@ -292,7 +292,7 @@
 
 			partition@580000 {
 				label = "ubi";
-				reg = <0x0580000 0x1f00000>;  // 修改为500MB
+				reg = <0x580000 0x1F400000>;  /* 修改为 500MB */
 				compatible = "linux,ubi";
 
 				volumes {
