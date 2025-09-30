@@ -9,6 +9,7 @@ mediatek_setup_interfaces()
 
 	case $board in
 	abt,asr3000|\
+	buffalo,wsr-6000ax8|\
 	cmcc,rax3000m|\
 	cmcc,rax3000me|\
 	h3c,magic-nx30-pro|\
@@ -50,6 +51,7 @@ mediatek_setup_interfaces()
 	creatlentem,clt-r30b1-112m|\
 	cudy,wr3000-v1|\
 	jcg,q30-pro|\
+	keenetic,kn-3711|\
 	keenetic,kn-3811|\
 	livinet,zr-3020|\
 	livinet,zr-3020-ubootmod|\
@@ -74,6 +76,7 @@ mediatek_setup_interfaces()
 	zbtlink,zbt-z8102ax-v2)
 		ucidef_set_interfaces_lan_wan "lan1 lan2 lan3 lan4" eth1
 		;;
+	asiarf,ap7986-003|\
 	asus,tuf-ax6000|\
 	glinet,gl-mt6000|\
 	tplink,tl-xdr4288|\
